@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>404 Page Not Found</title>
+    <style>
+        body {
+            background-color: #e5e5e5;
+        }
+
+        .car-container {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: drive 5s infinite;
+        }
+
+        @keyframes drive {
+            0% {
+                transform: translateX(-200%);
+            }
+            50% {
+                transform: translateX(200%);
+            }
+            100% {
+                transform: translateX(-200%);
+            }
+        }
+
+        .message {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+<div class="message">
+    <h1>Oops! Page not found</h1>
+    <p>We're sorry, but the page you requested could not be found.</p>
+</div>
+<div class="car-container">
+    <img
+            src="https://medial1.marketingdesignpro.com/wp-content/uploads/2023/04/sedan.png"
+            alt="Car" width="200px">
+</div>
+</body>
+</html>
