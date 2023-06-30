@@ -10,4 +10,5 @@ webRouters.post("/list",StudentControllers.getListStudentsPage);
 webRouters.get("/:id/update/",StudentControllers.getUpdateStudentPage);
 webRouters.post("/:id/update/",StudentControllers.updateStudent);
 webRouters.get("/:id/delete/",StudentControllers.deleteStudent);
+webRouters.get("/:id/detail/",StudentControllers.detailStudent);
 

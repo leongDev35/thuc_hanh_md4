@@ -1,7 +1,7 @@
 import {Schema, model} from "mongoose";
 interface iStudent {
     name : string;
-    pointLT : number;
+    pointTheory : number;
     pointPractice: number;
     description: string;
     evaluated: string;
@@ -9,7 +9,7 @@ interface iStudent {
 }
 const studentSchema = new Schema <iStudent> ({
     name: String,
-    pointLT: Number,
+    pointTheory: Number,
     pointPractice: Number,
     description: String,
     evaluated: String,
